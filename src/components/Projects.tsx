@@ -7,7 +7,7 @@ const Projects = () => {
       title: "E-commerce Website for Retail Clothing Store",
       description: "A comprehensive web application for a clothing business in Colombo, featuring product catalog, shopping cart, and user management.",
       icon: ShoppingBag,
-      technologies: ["HTML", "CSS", "JavaScript", "Web Development"],
+      technologies: ["HTML", "CSS", "JavaScript", "Java", "Web Development"],
       category: "Web Application",
       highlights: ["Responsive Design", "User Authentication", "Product Management"]
     },
