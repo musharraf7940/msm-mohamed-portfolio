@@ -268,14 +268,16 @@ const Hero = () => {
                     }}
                     transition={{ duration: 4, repeat: Infinity }}
                   />
-                  <motion.img
-                    src={heroPortrait}
-                    alt="Musharraf Mohamed"
-                    className="relative w-full h-auto rounded-2xl shadow-elegant"
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.6 }}
-                  />
+                  <div className="relative overflow-hidden h-[500px] rounded-2xl">
+                    <motion.img
+                      src={heroPortrait}
+                      alt="Musharraf Mohamed"
+                      className="relative w-full h-full object-cover object-top shadow-elegant"
+                      initial={{ scale: 0.8, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      transition={{ delay: 0.5, duration: 0.6 }}
+                    />
+                  </div>
                 </motion.div>
               </div>
             </div>
