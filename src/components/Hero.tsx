@@ -200,16 +200,6 @@ const Hero = () => {
                   />
                 </Button>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  onClick={() => scrollToSection('contact')}
-                  className="border-hero-accent text-hero-accent hover:bg-hero-accent hover:text-hero-bg px-8"
-                >
-                  Contact Me
-                </Button>
-              </motion.div>
             </motion.div>
 
             <motion.div 
